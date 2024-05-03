@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    <h1> Essa é a página de login</h1>
-    <p>Formulário aqui</p>
+    <header>
+        <nav>
+            <h1>Loja daora!</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cadastro</h2>
+
+            <form action="pedidos.html">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input id="nome" name="nome" type="text" placeholder="Digite seu nome">
+                </div>
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input id="email" name="email" type="email" placeholder="Digite seu E-mail">
+                </div>
+
+                <div>
+                    <label for="password">E-mail: </label>
+                    <input id="password" name="password" type="password" placeholder="Digite sua senha: ">
+                </div>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" name="" id="resetar">
+            </form>
+        </section>
+    </main>
 </body>
 </html>

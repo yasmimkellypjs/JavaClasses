@@ -1,0 +1,26 @@
+a{
+    color: #c89494;
+}
+
+nav{
+     background-color: #15886d;
+     display: flex;
+}
+
+.title-nav{
+    margin-left: 3px;
+    color: aliceblue;
+}
+
+.game img{
+    width: 200px;
+    height: 110px;
+}
+
+div .title-nav{
+    color: #ffffff;
+    display: flex;
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+

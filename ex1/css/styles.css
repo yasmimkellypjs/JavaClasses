@@ -1,14 +1,10 @@
-a{
-    color: #c89494;
-}
-
 nav{
      background-color: #15886d;
      display: flex;
+     
 }
 
 .title-nav{
-    margin-left: 3px;
     color: aliceblue;
 }
 
@@ -17,10 +13,18 @@ nav{
     height: 110px;
 }
 
-div .title-nav{
+#title-nav{
     color: #ffffff;
     display: flex;
-    margin-left: 50px;
+    margin-left: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#menu-nav{
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li .a{
+    color: #ffffff;
+}

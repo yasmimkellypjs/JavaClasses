@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbg">
+            <div id="title-nav">
+                <h1>DSPlayGames</h1>
+            </div>
+           <div id="menu-nav">
+            <ul>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#sub">Inscreva-se</a></li>
+            </ul>
+           </div>
+
+           <div id="img-nav">
+            <img src="/img/anime-icon.jpg" alt="Anime Icon">
+           </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="news">
+            <div id="title-news">
+                <h1>
+                    Últimas Notícias
+                </h1>
+            </div>
+
+            <section id="news1">
+                <h1>Título principal da notícia</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h2>
+                <div id="date1"><h3>23/02/2022</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+                <h3><a href="">Ler mais</a></h3>
+            </section>
+
+            <section id="news2">
+                <h1>Título principal da notícia</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h2>
+                <div id="date2"><h3>23/02/2022</h3></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+                <h3><a href="">Ler mais</a></h3>
+            </section>
+
+            <div id="bottom-see-more">
+                <input type="button" value="Carregar mais">
+            </div>
+        </section>
+
+
+        <section id="games">
+            <div id="title-games"><h1>Jogos</h1></div>
+            <div id="game1" class="game">
+                <img src="img/stardew-game.jpg" alt="Stardew Valley">
+                <h2 id="game-name">Stardew Valley</h2>
+                <p>Jogo de fazendinha muito bom</p>
+                <h2 id="gamerate">9.7</h2>
+            </div>
+
+            <div id="game2" class="game">
+                <img src="img/lol-game.jpg" alt="League Of Legends">
+                <h2 id="game-name">League Of Legends</h2>
+                <p>Jogo infernal, jogo por puro vício</p>
+                <h2 id="gamerate">6.7</h2>
+            </div>
+
+            <div id="game3" class="game">
+                <img src="img/valorant-game.jpg" alt="Valorant">
+                <h2 id="game-name">Valorant</h2>
+                <p>Jogo ótimo pena que não jogo mais, saudades</p>
+                <h2 id="gamerate">9.0</h2>
+            </div>
+        </section>
+
+        <section id="formulario">
+            <div id="tittle-form">
+                <h1>Faça sua inscrição</h1>
+            </div>
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Nome completo" id="nome">
+                </div>
+
+                <div>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+
+                <div>
+                    <label for="fav-plat">Qual sua plataforma preferida?</label>
+                    <div id="fav-plat">
+                        <input type="radio" name="fav" id="pc">
+                        <label for="pc">Pc</label>
+                        <input type="radio" name="fav" id="xbox">
+                        <label for="xbox">Xbox</label>
+                        <input type="radio" name="fav" id="ps">
+                        <label for="ps">PlayStation</label>
+                    </div>
+                </div>
+
+                <div id="checkbox">
+                    <input type="checkbox" name="email-on" id="emailon">
+                    <label for="emailon">Desejo Receber Novidades</label>
+                </div>
+
+                <div id="bottom-send">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div id="insta">
+            <p>@dsplaygames</p>
+            <p>/dsplaygames</p>
+        </div>
+
+        <div id="company-name">DS Play Games Ltda. Todos direitos reservados</div>
+
+        <div id="pol-term">
+            <p><a href="">Política de privacidade</a></p>
+            <p><a href="">Termos de Uso</a></p>
+        </div>
+    </footer>
+</body>
+</html>

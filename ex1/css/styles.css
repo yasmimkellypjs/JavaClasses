@@ -1,0 +1,32 @@
+nav{
+     background-color: #15886d;
+     display: flex;
+     
+}
+
+.title-nav{
+    color: aliceblue;
+}
+
+.game img{
+    width: 200px;
+    height: 110px;
+    border: 1px solid red;
+    margin: 40px 20px;
+}
+
+#title-nav{
+    color: #ffffff;
+    display: flex;
+    margin-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#menu-nav{
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li .a{
+    color: #ffffff;
+}

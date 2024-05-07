@@ -11,6 +11,8 @@ nav{
 .game img{
     width: 200px;
     height: 110px;
+    border: 1px solid red;
+    margin: 40px 20px;
 }
 
 #title-nav{

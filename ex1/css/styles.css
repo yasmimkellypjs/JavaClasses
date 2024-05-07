@@ -23,10 +23,26 @@ nav{
 }
 
 #menu-nav{
+    justify-content: flex-end;
+    display: flex;
     color: #ffffff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li .a{
     color: #ffffff;
+}
+
+ul{
+    display: flex;
+    margin-left: 5px;
+    
+}
+
+li{
+    margin-left: 5px;
+}
+
+#img_nav{
+    display: contents;
 }

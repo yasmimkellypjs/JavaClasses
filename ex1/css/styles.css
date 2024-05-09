@@ -1,38 +1,33 @@
+body{
+    margin: 0;
+}
+
 main{
     background-color: aliceblue;
     display: flexbox;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 nav{
      background-color: #15886d;
      display: flex;
-     margin-top: 0;
-     border: 0;
-     padding: 0;
-     
-}
-
-.title-nav{
-    color: aliceblue;
-}
-
-.game img{
-    width: 200px;
-    height: 110px;
-    border: 1px solid red;
-    margin: 40px 20px;
+     margin: 0;
+     border-bottom: 2px solid #797979;
 }
 
 #title-nav{
     color: #ffffff;
     display: flex;
     margin-left: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 131px;
+    height: 27px;
+    top: 32px;
+    left: 10px;
 }
 
 #menu-nav{
@@ -44,38 +39,103 @@ nav{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-li .a{
-    color: #ffffff;
-}
-
-ul{
+#title-news{
+    padding-top: 35px;
+    border-top: 1px;
+    border-bottom: 80px;
+    margin: 0;
     display: flex;
-    margin-left: 5px;
-    
+    justify-content: center;
+    align-items: center;
+    color: #797979;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 54px;
+
 }
 
-li{
-    margin-left: 5px;
-}
-
-#img_nav{
-    display: contents;
-}
-
-#games{
-    margin: 10px auto;
-    display: flex;
+#novidades{
+    display: flexbox;
 }
 
 .news{
     display: flexbox;
+    flex-direction:initial;
     text-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 990px;
-    max-height: 735px;
-    top: 130px;
-    left: 105px
+    width: 990px;
+    height: 247px;
+    top: 224px;
+    left: 105px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    border: 28px;
+    margin: 20px;
+    box-shadow: 0px 0px 1px #797979;
+}
+
+.news h1{
+    color: #15886d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 36px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.news h2{
+    color: #797979;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    height: 24px;
+    top: 276px;
+    left: 147px;
+    width: 907;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    border: 1px;
+    padding-left: 30px;
+}
+
+.news h3{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    width: 907px;
+    height: 15px;
+    top: 305px;
+    left: 145px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 30px;
+
+}
+
+.news h3 a{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #dd7e92;
+}
+
+.news p{
+    padding-left: 30px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #797979;
+
 }
 
 .game{
@@ -87,4 +147,10 @@ li{
 #novidades{
     align-items: center;
     justify-content: center;
+}
+
+
+#games{
+    margin: 10px auto;
+    display: flex;
 }

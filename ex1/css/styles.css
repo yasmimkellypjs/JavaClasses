@@ -3,11 +3,17 @@ main{
     display: flexbox;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 nav{
      background-color: #15886d;
      display: flex;
+     margin-top: 0;
+     border: 0;
+     padding: 0;
      
 }
 
@@ -76,4 +82,9 @@ li{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+#novidades{
+    align-items: center;
+    justify-content: center;
 }

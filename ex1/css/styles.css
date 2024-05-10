@@ -259,35 +259,41 @@ hr{
     background-color: #F0F0F0;
     flex-wrap: wrap;
     padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
 }
 
 #title-games{
     display: block;
     justify-content: center;
-    width: 112px;
-    height: 54px;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
     text-align: center;
     color: #38AF90;
-    padding: 50%;
-    padding-bottom: 0;
-    padding-right: 0;
 }
 
 .game{
-    display: flexbox;
+    display: inline-flexbox;
     border-radius: 8px;
+    width: 30%;
+    height: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .game img{
     width: 300px;
     height: 160px;
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.game h1{
+    text-align: center;
 }
 
 .game h2{
@@ -306,5 +312,4 @@ hr{
     line-height: 21px;
     text-align: center;
     color: #797979;
-
 }

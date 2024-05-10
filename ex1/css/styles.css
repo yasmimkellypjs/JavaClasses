@@ -72,6 +72,10 @@ nav{
     padding: 10px;
 }
 
+#news{
+    margin-bottom: 70px;
+}
+
 #title-news{
     padding-top: 35px;
     border-top: 1px;
@@ -249,6 +253,58 @@ hr{
 
 
 #games{
-    margin: 10px auto;
-    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    background-color: #F0F0F0;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+#title-games{
+    display: block;
+    justify-content: center;
+    width: 112px;
+    height: 54px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #38AF90;
+    padding: 50%;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.game{
+    display: flexbox;
+    border-radius: 8px;
+}
+
+.game img{
+    width: 300px;
+    height: 160px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.game h2{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #797979;
+}
+
+.game p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #797979;
+
 }

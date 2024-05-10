@@ -240,12 +240,6 @@ hr{
 
 }
 
-.game{
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
 #novidades{
     align-items: center;
     justify-content: center;
@@ -253,19 +247,20 @@ hr{
 
 
 #games{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
     display:flex;
     background-color: #F0F0F0;
     flex-wrap: wrap;
     padding-left: 30px;
+    padding-right: 30px;
     align-items: center;
     justify-content: center;
     height: 10%;
-}
+    margin: 0;}
 
 #title-games{
-    display: block;
+    display: flex;
     justify-content: center;
     font-family: Poppins;
     font-size: 36px;
@@ -277,11 +272,12 @@ hr{
 
 .game{
     display: inline-flexbox;
+    border: 2px #fafafa;
     border-radius: 8px;
-    width: 30%;
-    height: 40%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 300px;
+    height: 280px;
+    background-color: #ffffff;
+    padding-bottom: 30px;
 }
 
 .game img{
@@ -312,4 +308,9 @@ hr{
     line-height: 21px;
     text-align: center;
     color: #797979;
+}
+
+#jogos{
+    display: flex;
+    align-items: center;
 }

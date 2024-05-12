@@ -426,3 +426,16 @@ input{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+#bottom-send{
+    font-family: poppins;
+    font-weight: 700;
+    background-color: #dd7e92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid #dd7e92;
+}

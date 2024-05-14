@@ -273,8 +273,11 @@ br{
     line-height: 54px;
     text-align: center;
     color: #38AF90;
-    margin: auto;
+    margin:auto;
     padding: 10px 0; 
+    margin-left: 400px;
+
+    margin-right: 400px;
 }
 
 .game{
@@ -328,6 +331,10 @@ br{
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+.gamerate h2{
+    color: #15886d;
 }
 
 img {
@@ -405,7 +412,7 @@ label{
     justify-content: center;
     text-align: left;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 70px;
 }
 
 #preencher{
@@ -459,6 +466,7 @@ input{
 }
 
 #bottom-send{
+    display: grid;
     width: 244px;
     height: 67px;
     top: 2016px;
@@ -472,6 +480,7 @@ input{
 }
 
 #bottom-send input{
+    display: grid;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -485,6 +494,7 @@ input{
 }
 
 #bottom-clear{
+    display: grid;
     background-color: #FFFFFF;
     width: 244px;
     height: 67px;
@@ -501,9 +511,12 @@ input{
 
 #bottoms{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    margin: auto;
+
 }
 
 #checkbox{
@@ -514,4 +527,30 @@ input{
 #fav-games{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+footer{
+    background-color: #383838;
+    display: flex;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer p{
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+footer p a{
+    color: #FFFFFF;
+    text-decoration: none;
 }

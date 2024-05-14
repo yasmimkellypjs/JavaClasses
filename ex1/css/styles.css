@@ -439,3 +439,16 @@ input{
     border-radius: 9px 9px 9px 9px;
     border: 1px solid #dd7e92;
 }
+
+#fav-games{
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 2px;
+    display:inline-flexbox
+}
+
+#fav-plat input{
+    margin: 0;
+    padding-right: 2px;
+    size: 10vh;
+}
